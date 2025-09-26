@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/navbar/loGo.png";
+import logo from "../assets/navbar/logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
