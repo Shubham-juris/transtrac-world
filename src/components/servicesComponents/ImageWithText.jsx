@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import serviceImg from "../../assets/services/img.jpg"; 
+import serviceImg from "../../assets/services/img1.jpg"; 
 
 export default function ImageWithText() {
   return (

@@ -27,7 +27,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-black text-white text-center">
+    <section className="py-20 px-6 bg-gray-950 text-white text-center">
       {/* Heading */}
       <motion.h2
         className="text-4xl font-bold mb-6"

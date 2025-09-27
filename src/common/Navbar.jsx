@@ -1,31 +1,83 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/navbar/logo.png";
+import logo from "../assets/navbar/logo1.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const topBarRef = useRef(null);
+  const [topBarHeight, setTopBarHeight] = useState(0);
 
   const navLinks = [
     { name: "Home", to: "/" },
     { name: "About Us", to: "/about-us" },
     { name: "Services", to: "/services" },
     { name: "Fleet", to: "/fleet" },
-    { name: "Solution", to: "/solution" },
-    { name: "Industry", to: "/industry" },
-    { name: "Experience", to: "/experience" },
-    { name: "Resources", to: "/resources" },
   ];
+
+  // Calculate top bar height dynamically
+  useEffect(() => {
+    if (topBarRef.current) {
+      setTopBarHeight(topBarRef.current.offsetHeight);
+    }
+    const handleResize = () => {
+      if (topBarRef.current) setTopBarHeight(topBarRef.current.offsetHeight);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
-      <div className="fixed top-0 w-full z-50">
-        <nav className="w-full bg-black/90 text-white shadow-md">
-          <div className="container mx-auto flex items-center justify-between px-6 py-3">
+      {/* Top Info Bar */}
+     <div
+  ref={topBarRef}
+  className="fixed top-0 w-full bg-yellow-400 text-black z-50"
+>
+  <div className="flex justify-between items-center px-4 md:px-6 py-1 text-sm">
+    {/* Left: Site Name */}
+    <div className="font-semibold">Transtech World</div>
 
+    {/* Center: Scrolling Welcome */}
+    <div className="flex-1 mx-4 overflow-hidden relative h-5">
+      <div className="absolute whitespace-nowrap animate-scroll">
+        Welcome to Transtech World – Advanced 3PL Logistics & Transportation Solutions
+      </div>
+    </div>
+
+    {/* Right: Email */}
+    <div>Email: infotranstechworld@gmail.com</div>
+  </div>
+
+  <style>
+    {`
+      @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+      .animate-scroll {
+        display: inline-block;
+        animation: scroll 15s linear infinite;
+      }
+    `}
+  </style>
+</div>
+
+
+      {/* Navbar */}
+      <div
+        className="fixed w-full z-40"
+        style={{ top: `${topBarHeight}px` }}
+      >
+        <nav className="relative w-full bg-white shadow-md">
+          <div className="relative container mx-auto flex items-center justify-between px-4 md:px-6 py-3 z-10">
             {/* Logo */}
             <NavLink to="/" className="flex items-center space-x-2">
-              <img src={logo} alt="Transtrac World" className="h-14 w-auto object-contain" />
+              <img
+                src={logo}
+                alt="Transtech World"
+                className="h-14 w-auto object-contain"
+              />
             </NavLink>
 
             {/* Desktop Menu */}
@@ -41,24 +93,22 @@ export default function Navbar() {
                   {link.name}
                 </NavLink>
               ))}
-
-              {/* Contact Button */}
               <NavLink to="/contact">
-                <button className="ml-4 px-5 py-2 border border-white rounded-full hover:bg-white hover:text-black transition">
+                <button className="ml-4 px-5 py-2 border border-black rounded-full hover:bg-black hover:text-white transition">
                   Contact
                 </button>
               </NavLink>
             </div>
 
             {/* Mobile Menu Button */}
-            <button className="md:hidden text-white" onClick={() => setOpen(!open)}>
+            <button className="md:hidden text-black" onClick={() => setOpen(!open)}>
               {open ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
 
           {/* Mobile Menu */}
           {open && (
-            <div className="md:hidden bg-black/95 px-6 py-4 space-y-4 text-center">
+            <div className="md:hidden bg-white px-6 py-4 space-y-4 text-center shadow-lg">
               {navLinks.map((link, idx) => (
                 <NavLink
                   key={idx}
@@ -71,28 +121,19 @@ export default function Navbar() {
                   {link.name}
                 </NavLink>
               ))}
-
-              {/* Contact Button */}
               <NavLink to="/contact">
-                <button className="w-full border border-white rounded-full px-4 py-2 hover:bg-white hover:text-black transition">
+                <button className="w-full border border-black rounded-full px-4 py-2 hover:bg-black hover:text-white transition">
                   Contact
                 </button>
               </NavLink>
-
-              {/* Demo / Login Buttons */}
-              <button className="w-full border border-white rounded-full px-4 py-2 hover:bg-white hover:text-black transition">
-                Try Demo
-              </button>
-              <button className="w-full border border-white rounded-full px-4 py-2 hover:bg-white hover:text-black transition">
-                Login
-              </button>
             </div>
           )}
         </nav>
       </div>
 
-      {/* Spacer so content starts below navbar */}
-      <div className="h-[80px]"></div>
+      {/* Spacer to push content below top bar + navbar */}
+      <div style={{ height: `${topBarHeight + 80}px` }}></div>
+      {/* 80px approx navbar height */}
     </>
   );
 }

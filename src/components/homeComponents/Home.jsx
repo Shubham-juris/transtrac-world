@@ -4,9 +4,9 @@ import video from "../../assets/home/video1.mp4";
 
 export default function Home() {
   return (
-    <div className="w-full text-white">
+    <div className="w-full text-white font-sans">
       {/* Hero Section */}
-      <section className="relative w-full min-h-screen flex flex-col items-center justify-center text-center px-4">
+      <section className="relative w-full min-h-[80vh] flex flex-col justify-center px-6 md:px-20">
         {/* Background Video */}
         <video
           autoPlay
@@ -19,27 +19,21 @@ export default function Home() {
         </video>
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/80"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
 
         {/* Hero Content */}
-        <div className="relative z-10 max-w-4xl">
-          <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-snug">
-            Maximize Fleet Efficiency, Ensure Consistency, <br />
-            with Transtech World’s Logistics Expertise
+        <div className="relative z-10 max-w-3xl text-left">
+          <h1 className="text-3xl md:text-6xl font-bold font-heading mb-4 leading-snug">
+            Maximize Fleet Efficiency, Ensure Consistency
           </h1>
-          <p className="text-lg md:text-2xl mb-8 max-w-3xl mx-auto text-gray-200">
+          <h2 className="text-xl md:text-2xl font-medium font-heading mb-6 leading-snug">
+            with Transtech World Logistics Expertise
+          </h2>
+          <p className="text-base md:text-lg text-gray-200 font-body leading-relaxed">
             Streamline the tracking and management of your transportation and 3PL
             operations. Optimize performance, reduce costs, and drive reliability
             across your supply chain.
           </p>
-          <div className="space-x-4 flex justify-center">
-            <button className="px-6 py-3 rounded-xl bg-red-600 hover:bg-red-700 transition font-semibold">
-              Try Demo
-            </button>
-            <button className="px-6 py-3 rounded-xl border border-white bg-transparent hover:bg-white hover:text-black transition font-semibold">
-              Learn More
-            </button>
-          </div>
         </div>
       </section>
 
@@ -48,28 +42,38 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center px-6">
           <div className="flex flex-col items-center">
             <BarChart3 className="h-10 w-10 mb-2 text-blue-400" />
-            <h3 className="font-semibold">Improve</h3>
-            <p className="text-sm text-gray-300">Fleet Efficiency</p>
+            <h3 className="font-semibold text-lg md:text-xl font-heading mb-1">
+              Improve
+            </h3>
+            <p className="text-sm md:text-base text-gray-300">Fleet Efficiency</p>
           </div>
           <div className="flex flex-col items-center">
             <Truck className="h-10 w-10 mb-2 text-green-400" />
-            <h3 className="font-semibold">Increase</h3>
-            <p className="text-sm text-gray-300">Business Productivity</p>
+            <h3 className="font-semibold text-lg md:text-xl font-heading mb-1">
+              Increase
+            </h3>
+            <p className="text-sm md:text-base text-gray-300">Business Productivity</p>
           </div>
           <div className="flex flex-col items-center">
             <ShieldCheck className="h-10 w-10 mb-2 text-yellow-400" />
-            <h3 className="font-semibold">Maximize</h3>
-            <p className="text-sm text-gray-300">Operational Effectiveness</p>
+            <h3 className="font-semibold text-lg md:text-xl font-heading mb-1">
+              Maximize
+            </h3>
+            <p className="text-sm md:text-base text-gray-300">Operational Effectiveness</p>
           </div>
           <div className="flex flex-col items-center">
             <DollarSign className="h-10 w-10 mb-2 text-red-400" />
-            <h3 className="font-semibold">Reduce</h3>
-            <p className="text-sm text-gray-300">Operational Costs</p>
+            <h3 className="font-semibold text-lg md:text-xl font-heading mb-1">
+              Reduce
+            </h3>
+            <p className="text-sm md:text-base text-gray-300">Operational Costs</p>
           </div>
           <div className="flex flex-col items-center">
             <Leaf className="h-10 w-10 mb-2 text-teal-400" />
-            <h3 className="font-semibold">Enhance</h3>
-            <p className="text-sm text-gray-300">Sustainability</p>
+            <h3 className="font-semibold text-lg md:text-xl font-heading mb-1">
+              Enhance
+            </h3>
+            <p className="text-sm md:text-base text-gray-300">Sustainability</p>
           </div>
         </div>
       </section>
