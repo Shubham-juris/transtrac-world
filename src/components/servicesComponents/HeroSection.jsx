@@ -24,7 +24,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Transtech World <span className="text-red-600">Services</span>
+          Rentals & <span className="text-red-600">Services</span>
         </motion.h1>
         <motion.p
           className="text-lg md:text-xl text-gray-300"
@@ -32,8 +32,7 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
         >
-          Delivering cutting-edge 3PL logistics and transportation solutions to
-          optimize your supply chain with efficiency, security, and speed.
+          Reliable fleet rentals and logistics services tailored for businesses of all sizes.
         </motion.p>
       </motion.div>
     </section>

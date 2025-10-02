@@ -8,12 +8,14 @@ export default function Navbar() {
   const topBarRef = useRef(null);
   const [topBarHeight, setTopBarHeight] = useState(0);
 
-  const navLinks = [
-    { name: "Home", to: "/" },
-    { name: "About Us", to: "/about-us" },
-    { name: "Services", to: "/services" },
-    { name: "Fleet", to: "/fleet" },
-  ];
+ const navLinks = [
+  { name: "Home", to: "/" },
+  { name: "About Us", to: "/about-us" },
+  { name: "Rentals & Service", to: "/services" },
+  { name: "Fleet", to: "/fleet" },
+  { name: "Online Booking", to: "/online-booking" },     
+];
+
 
   // Calculate top bar height dynamically
   useEffect(() => {

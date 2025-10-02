@@ -5,9 +5,7 @@ import video from "../../assets/home/video1.mp4";
 export default function Home() {
   return (
     <div className="w-full text-white font-sans">
-      {/* Hero Section */}
       <section className="relative w-full min-h-[80vh] flex flex-col justify-center px-6 md:px-20">
-        {/* Background Video */}
         <video
           autoPlay
           loop
@@ -18,10 +16,8 @@ export default function Home() {
           <source src={video} type="video/mp4" />
         </video>
 
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/70"></div>
 
-        {/* Hero Content */}
         <div className="relative z-10 max-w-3xl text-left">
           <h1 className="text-3xl md:text-6xl font-bold font-heading mb-4 leading-snug">
             Maximize Fleet Efficiency, Ensure Consistency
