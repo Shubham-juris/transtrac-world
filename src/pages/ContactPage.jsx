@@ -55,9 +55,9 @@ export default function ContactPage() {
           <p className="text-gray-400">
             📧 infotranstracworld@gmail.com
           </p>
-          <p className="text-gray-400">
+          {/* <p className="text-gray-400">
             📞 +1-XXX-XXX-XXXX
-          </p>
+          </p> */}
 
           {/* Google Map */}
           <div className="w-full h-64 rounded-xl overflow-hidden border border-gray-700 shadow-lg">

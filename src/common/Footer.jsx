@@ -45,7 +45,7 @@ export default function Footer() {
               infotranstracworld@gmail.com
             </a>
           </p>
-          <p className="text-gray-400">📞 +1-XXX-XXX-XXXX</p>
+          {/* <p className="text-gray-400">📞 +1-XXX-XXX-XXXX</p> */}
 
           {/* Social Icons */}
           <div className="flex space-x-5 mt-3">
