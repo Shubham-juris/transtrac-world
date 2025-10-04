@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/navbar/logo1.png";
+import logo from "../assets/navbar/trans.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -31,16 +31,13 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Top Info Bar */}
      <div
   ref={topBarRef}
   className="fixed top-0 w-full bg-yellow-400 text-black z-50"
 >
   <div className="flex justify-between items-center px-4 md:px-6 py-1 text-sm">
-    {/* Left: Site Name */}
     <div className="font-semibold">Transtech World</div>
 
-    {/* Center: Scrolling Welcome */}
     <div className="flex-1 mx-4 overflow-hidden relative h-5">
       <div className="absolute whitespace-nowrap animate-scroll">
         Welcome to Transtech World – Advanced 3PL Logistics & Transportation Solutions
@@ -78,7 +75,7 @@ export default function Navbar() {
               <img
                 src={logo}
                 alt="Transtech World"
-                className="h-14 w-auto object-contain"
+                className="h-13 w-auto object-contain"
               />
             </NavLink>
 
