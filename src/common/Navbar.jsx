@@ -17,7 +17,6 @@ export default function Navbar() {
 ];
 
 
-  // Calculate top bar height dynamically
   useEffect(() => {
     if (topBarRef.current) {
       setTopBarHeight(topBarRef.current.offsetHeight);
