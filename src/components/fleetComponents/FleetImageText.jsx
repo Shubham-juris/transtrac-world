@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import fleetImg from "../../assets/services/img.jpg";
+import fleetImg from "../../assets/fleet/img.jpg";
 
 export default function FleetImageText() {
   return (
@@ -30,9 +30,7 @@ export default function FleetImageText() {
             empowers you with fleet optimization tools that reduce downtime,
             minimize costs, and increase delivery reliability.
           </p>
-          <button className="px-6 py-3 bg-red-600 hover:bg-red-700 rounded-xl">
-            Explore Solutions
-          </button>
+         
         </motion.div>
       </div>
     </section>

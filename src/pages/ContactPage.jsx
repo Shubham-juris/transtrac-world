@@ -53,7 +53,7 @@ export default function ContactPage() {
             📍 St John, Newfoundland, Canada
           </p>
           <p className="text-gray-400">
-            📧 infotranstracworld@gmail.com
+            📧 infotranstechworld@gmail.com
           </p>
           {/* <p className="text-gray-400">
             📞 +1-XXX-XXX-XXXX

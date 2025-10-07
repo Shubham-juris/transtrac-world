@@ -26,23 +26,23 @@ export default function RentalsService() {
     },
   ];
 
-  const fleet = [
-    {
-      img: "https://via.placeholder.com/300x180.png?text=Truck",
-      title: "Heavy Duty Trucks",
-      desc: "Perfect for long-haul freight and bulk shipments.",
-    },
-    {
-      img: "https://via.placeholder.com/300x180.png?text=Trailer",
-      title: "Trailers",
-      desc: "Ideal for industrial cargo and large-scale transport.",
-    },
-    {
-      img: "https://via.placeholder.com/300x180.png?text=Van",
-      title: "Delivery Vans",
-      desc: "Best for last-mile delivery and urban logistics.",
-    },
-  ];
+  // const fleet = [
+  //   {
+  //     img: "https://via.placeholder.com/300x180.png?text=Truck",
+  //     title: "Heavy Duty Trucks",
+  //     desc: "Perfect for long-haul freight and bulk shipments.",
+  //   },
+  //   {
+  //     img: "https://via.placeholder.com/300x180.png?text=Trailer",
+  //     title: "Trailers",
+  //     desc: "Ideal for industrial cargo and large-scale transport.",
+  //   },
+  //   {
+  //     img: "https://via.placeholder.com/300x180.png?text=Van",
+  //     title: "Delivery Vans",
+  //     desc: "Best for last-mile delivery and urban logistics.",
+  //   },
+  // ];
 
   return (
     <div className="bg-gray-50 min-h-screen">

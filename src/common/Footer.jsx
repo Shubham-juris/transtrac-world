@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "../assets/navbar/trans.png";
+import logo from "../assets/navbar/logo.jpg";
 
 export default function Footer() {
   return (
