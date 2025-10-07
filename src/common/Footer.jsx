@@ -39,10 +39,10 @@ export default function Footer() {
           <p className="text-gray-400">
             📧{" "}
             <a
-              href="mailto:infotranstracworld@gmail.com"
+              href="mailto:infotranstechworld@gmail.com"
               className="hover:text-red-500"
             >
-              infotranstracworld@gmail.com
+              infotranstechworld@gmail.com
             </a>
           </p>
           {/* <p className="text-gray-400">📞 +1-XXX-XXX-XXXX</p> */}
@@ -50,18 +50,18 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex space-x-5 mt-3">
             <a
-              href="https://www.facebook.com/yourtrackinglink"
+              href="https://www.facebook.com/profile.php?id=100094004298093"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Facebook className="w-6 h-6 hover:text-red-500 transition" />
+              <Facebook className="w-6 h-6 text-blue-600 hover:text-blue-500 transition" />
             </a>
             <a
-              href="https://www.instagram.com/yourtrackinglink"
+              href="https://www.instagram.com/transtech.world"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Instagram className="w-6 h-6 hover:text-red-500 transition" />
+              <Instagram className="w-6 h-6 text-red-500 hover:text-red-600 transition" />
             </a>
            
           </div>
