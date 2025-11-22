@@ -12,6 +12,7 @@ export default function Navbar() {
   { name: "Home", to: "/" },
   { name: "About Us", to: "/about-us" },
   { name: "Rentals & Service", to: "/services" },
+  { name: "Jobs", to: "/jobs" }, 
   { name: "Fleet", to: "/fleet" },
   { name: "Online Booking", to: "/online-booking" },     
 ];

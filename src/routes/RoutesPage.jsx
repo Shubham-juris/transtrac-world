@@ -7,7 +7,7 @@ import FleetPage from "../pages/FleetPage";
 import ScrollToTop from "../pages/ToptoScroll";
 import ContactPage from "../pages/ContactPage";
 import OnlineBooking from "../pages/OnlineBooking";
-// import RentalsService from "../pages/RentalsService";
+import AllJobsPage from "../pages/AllJobsPage";
 
 const RoutesPage = () => {
   return (
@@ -19,8 +19,7 @@ const RoutesPage = () => {
         <Route path="services" element={<ServicesPage />} />
         <Route path="fleet" element={<FleetPage />} />
         <Route path="online-booking" element={<OnlineBooking />} />
-                {/* <Route path="rentals-service" element={<RentalsService />} /> */}
-
+        <Route path="jobs" element={<AllJobsPage />} />
         <Route path="contact" element={<ContactPage />} />
       </Routes>
     </>
