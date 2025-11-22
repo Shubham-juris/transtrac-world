@@ -22,7 +22,7 @@ export default function Home() {
             </p>
             <Link
               to="/about-us" 
-              className="inline-block mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition"
+              className="inline-block mt-4 px-6 py-3 bg-red-600 hover:bg-red-700 rounded-lg font-semibold transition"
             >
               Learn More
             </Link>
