@@ -1,106 +1,74 @@
 [
   {
     "id": 2,
-    "title": "Sales Supervisor",
+    "title": "Logistics Sales Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
     "benefits": "",
-    "description": "Monitor commercial KPIs and support daily retail operations."
+    "description": "Manage logistics sales operations, monitor KPIs, and support daily transportation-related sales activities."
   },
   {
     "id": 5,
-    "title": "Retail Sales Supervisor",
+    "title": "Transportation Sales Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
     "benefits": "",
-    "description": "Supervise workers, prepare reports, and coordinate daily sales activities."
+    "description": "Supervise sales teams, prepare reports, and coordinate daily transportation and logistics sales operations."
   },
   {
     "id": 6,
-    "title": "Retail Sales Supervisor",
+    "title": "Logistics Retail Sales Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
     "benefits": "",
-    "description": "Assign duties, supervise sales staff, and prepare sales and merchandising reports."
+    "description": "Assign duties, supervise logistics sales staff, and prepare sales and service performance reports."
   },
   {
     "id": 7,
-    "title": "Sales Supervisor",
+    "title": "Vehicle & Fleet Sales Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
     "benefits": "",
-    "description": "Assist customers with vehicle info, build customer relationships, and support sales operations."
+    "description": "Assist customers with fleet and vehicle information, build client relationships, and support transportation sales operations."
   },
   {
     "id": 8,
-    "title": "Garden & Home Décor Sales Supervisor",
+    "title": "Logistics Coordinator",
     "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
+    "location": "Toronto, Ontario, Canada",
     "benefits": "",
-    "description": "Support retail garden sales, achieve category targets, and oversee store operations."
+    "description": "Coordinate shipments, schedule freight, track deliveries, and maintain communication with drivers and clients."
   },
   {
     "id": 9,
-    "title": "Supervisor, Group Sales",
+    "title": "Truck Dispatcher",
     "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
+    "location": "Calgary, Alberta, Canada",
     "benefits": "",
-    "description": "Achieve group sales targets by improving processes and managing group travel service operations."
+    "description": "Assign loads to drivers, plan routes, monitor real-time tracking, and resolve delivery-related issues."
   },
   {
     "id": 10,
-    "title": "Sales Supervisor",
+    "title": "Transportation Operations Manager",
     "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "Store discount",
-    "description": "Lead sales associates and oversee daily store sales performance."
+    "location": "Edmonton, Alberta, Canada",
+    "benefits": "",
+    "description": "Oversee transportation operations, manage fleet performance, ensure compliance, and optimize logistics workflows."
   },
   {
     "id": 11,
-    "title": "Part-Time Sales Lead",
+    "title": "Fleet Maintenance Supervisor",
     "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "Paid time off, Store discount, Flexible schedule",
-    "description": "Promote brand initiatives and support personal and store sales performance."
+    "location": "Winnipeg, Manitoba, Canada",
+    "benefits": "",
+    "description": "Manage fleet maintenance schedules, supervise technicians, and ensure trucks meet safety and compliance standards."
   },
   {
     "id": 12,
-    "title": "Territory Manager - Foodservice Sales",
+    "title": "Logistics Sales Executive",
     "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
+    "location": "Vancouver, British Columbia, Canada",
     "benefits": "",
-    "description": "Manage sales territory, maintain business relationships, and create new opportunities."
-  },
-  {
-    "id": 13,
-    "title": "Hotel Sales Manager",
-    "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "Dental care, Life insurance, Extended health care",
-    "description": "Oversee daily hotel operations and manage sales strategies."
-  },
-  {
-    "id": 14,
-    "title": "Sales Manager",
-    "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "Paid vacation",
-    "description": "Meet weekly and monthly club sales goals and manage customer service operations."
-  },
-  {
-    "id": 15,
-    "title": "Sales Manager",
-    "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "Dental care, Casual dress, Training and mentoring",
-    "description": "Lead team in sales, marketing, and studio growth."
-  },
-  {
-    "id": 16,
-    "title": "Territory Sales Manager",
-    "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "Mileage reimbursement, Dental care, Company pension, RRSP match, Extended health care, Wellness program",
-    "description": "Conduct regular sales calls and present new product promotions."
+    "description": "Generate leads, pitch logistics services, build client portfolios, and support business development activities."
   }
 ]
