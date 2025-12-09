@@ -1,15 +1,7 @@
 [
   {
-    "id": 2,
-    "title": "Logistics Sales Supervisor",
-    "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "",
-    "description": "Manage logistics sales operations, monitor KPIs, and support daily transportation-related sales activities."
-  },
-  {
     "id": 5,
-    "title": "Transportation Sales Supervisor",
+    "title": "Transportation Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
     "benefits": "",
@@ -17,20 +9,13 @@
   },
   {
     "id": 6,
-    "title": "Logistics Retail Sales Supervisor",
+    "title": "Logistics  Sales Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
     "benefits": "",
     "description": "Assign duties, supervise logistics sales staff, and prepare sales and service performance reports."
   },
-  {
-    "id": 7,
-    "title": "Vehicle & Fleet Sales Supervisor",
-    "company": "Transtech World",
-    "location": "St John, Newfoundland, Canada",
-    "benefits": "",
-    "description": "Assist customers with fleet and vehicle information, build client relationships, and support transportation sales operations."
-  },
+ 
   {
     "id": 8,
     "title": "Logistics Coordinator",
@@ -47,22 +32,7 @@
     "benefits": "",
     "description": "Assign loads to drivers, plan routes, monitor real-time tracking, and resolve delivery-related issues."
   },
-  {
-    "id": 10,
-    "title": "Transportation Operations Manager",
-    "company": "Transtech World",
-    "location": "Edmonton, Alberta, Canada",
-    "benefits": "",
-    "description": "Oversee transportation operations, manage fleet performance, ensure compliance, and optimize logistics workflows."
-  },
-  {
-    "id": 11,
-    "title": "Fleet Maintenance Supervisor",
-    "company": "Transtech World",
-    "location": "Winnipeg, Manitoba, Canada",
-    "benefits": "",
-    "description": "Manage fleet maintenance schedules, supervise technicians, and ensure trucks meet safety and compliance standards."
-  },
+ 
   {
     "id": 12,
     "title": "Logistics Sales Executive",
