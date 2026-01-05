@@ -39,10 +39,10 @@ export default function Footer() {
           <p className="text-gray-400">
             📧{" "}
             <a
-              href="mailto:infotranstechworld@gmail.com"
+              href="mailto:info@transtechworld.com"
               className="hover:text-red-500"
             >
-              infotranstechworld@gmail.com
+              info@transtechworld.com
             </a>
           </p>
           {/* <p className="text-gray-400">📞 +1-XXX-XXX-XXXX</p> */}
