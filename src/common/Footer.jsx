@@ -34,7 +34,7 @@ export default function Footer() {
         <div className="flex flex-col space-y-3">
           <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
           <p className="text-gray-400">
-            📍 St John, Newfoundland, Canada
+            📍 21 Pippy Pl, St John, NL A1B 3X2, Canada
           </p>
           <p className="text-gray-400">
             📧{" "}
@@ -45,7 +45,7 @@ export default function Footer() {
               info@transtechworld.com
             </a>
           </p>
-          {/* <p className="text-gray-400">📞 +1-XXX-XXX-XXXX</p> */}
+          <p className="text-gray-400">📞 +1-403-479-1045</p>
 
           {/* Social Icons */}
           <div className="flex space-x-5 mt-3">

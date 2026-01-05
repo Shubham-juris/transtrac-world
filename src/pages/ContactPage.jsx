@@ -50,14 +50,14 @@ export default function ContactPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Contact Information</h2>
           <p className="text-gray-400">
-            📍 St John, Newfoundland, Canada
+            📍 21 Pippy Pl, St John, NL A1B 3X2, Canada
           </p>
           <p className="text-gray-400">
-            📧 infotranstechworld@gmail.com
+            📧 info@transtechworld.com
           </p>
-          {/* <p className="text-gray-400">
-            📞 +1-XXX-XXX-XXXX
-          </p> */}
+          <p className="text-gray-400">
+            📞 +1-403-479-1045
+          </p>
 
           {/* Google Map */}
           <div className="w-full h-64 rounded-xl overflow-hidden border border-gray-700 shadow-lg">

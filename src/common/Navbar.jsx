@@ -45,7 +45,7 @@ export default function Navbar() {
     </div>
 
     {/* Right: Email */}
-    <div>Email: infotranstechworld@gmail.com</div>
+    <div>Email: info@transtechworld.com</div>
   </div>
 
   <style>
