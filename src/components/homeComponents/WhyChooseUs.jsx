@@ -5,21 +5,21 @@ import img from "../../assets/home/truck.jpg"
 
 export default function WhyChooseUs() {
   const points = [
-    {
-      icon: <Satellite className="h-12 w-12 mb-4 text-white" />,
-      title: "Compatible",
-      desc: "Works with 1000+ GPS trackers worldwide, allowing seamless data management across devices.",
-    },
-    {
-      icon: <Globe2 className="h-12 w-12 mb-4 text-white" />,
-      title: "Global Coverage",
-      desc: "Utilizing a global SIM card, ensures consistent connectivity for your fleet everywhere.",
-    },
-    {
-      icon: <Clock className="h-12 w-12 mb-4 text-white" />,
-      title: "Easy Integration",
-      desc: "Easily integrate with existing systems via open API for smooth data exchange.",
-    },
+   {
+  icon: <Satellite className="h-12 w-12 mb-4 text-white" />,
+  title: "Truck & Fleet Compatible",
+  desc: "Supports 1000+ GPS tracking devices used across trucking fleets, including tractors, trailers, and fleet assets.",
+},
+{
+  icon: <Globe2 className="h-12 w-12 mb-4 text-white" />,
+  title: "Nationwide & Global Coverage",
+  desc: "Powered by global SIM connectivity to keep trucks connected across cities, highways, and international routes.",
+},
+{
+  icon: <Clock className="h-12 w-12 mb-4 text-white" />,
+  title: "Seamless Integration",
+  desc: "Easily integrates with ELD, TMS, dispatch, and accounting systems through open APIs for real-time data sharing.",
+},
     {
       icon: <Headphones className="h-12 w-12 mb-4 text-white" />,
       title: "24/7 Support",
