@@ -36,11 +36,11 @@ export default function Navbar() {
   className="fixed top-0 w-full bg-yellow-400 text-black z-50"
 >
   <div className="flex justify-between items-center px-4 md:px-6 py-1 text-sm">
-    <div className="font-semibold">Transtech World</div>
+    <div className="font-semibold">TranstechWorld</div>
 
     <div className="flex-1 mx-4 overflow-hidden relative h-5">
       <div className="absolute whitespace-nowrap animate-scroll">
-        Welcome to Transtech World – Advanced 3PL Logistics & Transportation Solutions
+        Welcome to TranstechWorld – Advanced 3PL Logistics & Transportation Solutions
       </div>
     </div>
 
