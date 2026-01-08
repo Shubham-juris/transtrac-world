@@ -11,7 +11,7 @@ export default function FleetCTA() {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        Ready to Upgrade Your Fleet with Transtech World?
+        Ready to Upgrade Your Fleet with TranstechWorld?
       </motion.h2>
       <p className="max-w-2xl mx-auto mb-8">
         Take your fleet operations to the next level. Contact our experts today
