@@ -69,7 +69,7 @@ const AllJobsPage = () => {
 
                 <p className="text-gray-600 mb-4">{job.displayCompany}</p>
 
-                <h3 className="font-semibold text-lg">Job Details</h3>
+                {/* <h3 className="font-semibold text-lg">Job Details</h3>
                 <ul className="list-disc list-inside mb-4 text-gray-700">
                   <li>Location: {job.displayLocation}</li>
                   <li>Job type: {job.type || job.job_type || "Full-time"}</li>
@@ -101,7 +101,46 @@ const AllJobsPage = () => {
                   <li>
                     Assist management in planning and execution of projects
                   </li>
-                </ul>
+                </ul> */}
+                <h3 className="font-semibold text-lg">Job Details</h3>
+<ul className="list-disc list-inside mb-4 text-gray-700">
+  <li>Location: {job.displayLocation}</li>
+  <li>Job type: {job.type || "Full-time"}</li>
+  <li>Pay: {job.salary || "$37.00 per hour"}</li>
+  <li>Hours: {job.hours || "40 per week"}</li>
+</ul>
+
+<h3 className="font-semibold text-lg">Full Job Description</h3>
+<p className="mb-4">{job.displayDescription}</p>
+
+<h3 className="font-semibold text-lg">Qualifications</h3>
+<ul className="list-disc list-inside mb-4 text-gray-700">
+  {(job.qualifications || [
+    "Bachelor's degree (preferred)",
+    "3–5 years of experience",
+    "Strong communication skills"
+  ]).map((q, i) => (
+    <li key={i}>{q}</li>
+  ))}
+</ul>
+
+<h3 className="font-semibold text-lg">Responsibilities</h3>
+<ul className="list-disc list-inside mb-4 text-gray-700">
+  {(job.responsibilities || [
+    "Supervise staff and daily operations",
+    "Maintain quality standards and ensure compliance",
+    "Prepare weekly and monthly performance reports",
+    "Coordinate with team members",
+    "Communicate with clients",
+    "Manage workflow and deadlines",
+    "Provide training and guidance",
+    "Ensure workplace safety",
+    "Monitor progress",
+    "Support management with planning"
+  ]).map((r, i) => (
+    <li key={i}>{r}</li>
+  ))}
+</ul>
               </div>
 
               {/* RIGHT SIDE FORM */}
