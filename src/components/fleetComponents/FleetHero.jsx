@@ -17,7 +17,7 @@ export default function FleetHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Smart Fleet Management by <span className="text-red-600">Transtech World</span>
+          Smart Fleet Management by <span className="text-red-600">TranstechWorld</span>
         </motion.h1>
         <p className="text-gray-300 max-w-3xl mx-auto text-lg">
           Optimize routes, monitor performance, and achieve maximum efficiency
