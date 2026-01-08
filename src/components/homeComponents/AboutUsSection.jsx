@@ -15,10 +15,10 @@ export default function AboutUsSection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            About <span className="text-red-600">Transtech World</span>
+            About <span className="text-red-600">TranstechWorld</span>
           </h2>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Transtech World is a trusted partner in <strong>3PL logistics</strong> 
+            TranstechWorld is a trusted partner in <strong>3PL logistics</strong> 
             and <strong>transportation solutions</strong>, dedicated to 
             streamlining supply chain operations across industries. With a 
             strong focus on innovation and technology, we empower businesses 
