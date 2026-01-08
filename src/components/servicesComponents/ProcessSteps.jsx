@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function ProcessSteps() {
   const steps = [
-    { title: "Planning", desc: "Strategic supply chain planning designed by Transtech World experts." },
+    { title: "Planning", desc: "Strategic supply chain planning designed by TranstechWorld experts." },
     { title: "Execution", desc: "Seamless operations with real-time visibility and control." },
     { title: "Optimization", desc: "Continuous monitoring, analytics, and cost reductions." },
   ];
