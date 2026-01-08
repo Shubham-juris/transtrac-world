@@ -17,7 +17,7 @@ const fleet = [
     },
     {
       img:truck,
-      title: "Delivery Vans",
+      title: "Dry Vans",
       desc: "Best for last-mile delivery and urban logistics.",
     },
   ];
