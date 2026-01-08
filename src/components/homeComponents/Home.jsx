@@ -13,7 +13,7 @@ export default function Home() {
               Maximize Fleet Efficiency, Ensure Consistency
             </h1>
             <h2 className="text-xl md:text-2xl font-medium mb-6 leading-snug text-blue-400">
-              with Transtech World Logistics Expertise
+              with TranstechWorld Logistics Expertise
             </h2>
             <p className="text-base md:text-lg text-gray-300 leading-relaxed mb-6">
               Streamline the tracking and management of your transportation and
