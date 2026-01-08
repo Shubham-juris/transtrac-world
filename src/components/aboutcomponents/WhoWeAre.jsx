@@ -71,7 +71,7 @@ export default function WhoWeAre() {
             transition={{ duration: 1, delay: 0.3 }}
             className="text-gray-300 text-lg leading-relaxed max-w-xl mx-auto md:mx-0"
           >
-            Transtech World is a{" "}
+            TranstechWorld is a{" "}
             <span className="font-semibold text-white">
               next-generation logistics & transportation partner
             </span>
