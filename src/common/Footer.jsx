@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-col space-y-4">
           <img src={logo} alt="Transtech World" className="w-36" />
           <p className="text-gray-400 leading-relaxed">
-            Transtech World delivers cutting-edge{" "}
+            TranstechWorld delivers cutting-edge{" "}
             <strong>3PL logistics</strong> and{" "}
             <strong>transportation solutions</strong> designed to boost
             efficiency, reliability, and sustainability across global
@@ -70,7 +70,7 @@ export default function Footer() {
 
       {/* Bottom copyright */}
       <div className="mt-12 border-t border-gray-800 pt-4 text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Transtech World. All rights reserved. | 
+        &copy; {new Date().getFullYear()} TranstechWorld. All rights reserved. | 
        
       </div>
     </footer>
