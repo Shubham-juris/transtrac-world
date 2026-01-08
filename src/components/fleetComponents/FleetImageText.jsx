@@ -26,7 +26,7 @@ export default function FleetImageText() {
             Optimize Your <span className="text-red-600">Fleet Operations</span>
           </h2>
           <p className="text-gray-300 mb-6">
-            From small businesses to enterprise-level operations, Transtech World
+            From small businesses to enterprise-level operations, TranstechWorld
             empowers you with fleet optimization tools that reduce downtime,
             minimize costs, and increase delivery reliability.
           </p>
