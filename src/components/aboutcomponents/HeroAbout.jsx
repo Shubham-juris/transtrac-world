@@ -31,7 +31,7 @@ export default function HeroAbout() {
           transition={{ duration: 1 }}
           className="text-5xl font-extrabold mb-6 tracking-tight"
         >
-          About <span className="text-red-500">Transtech World</span>
+          About <span className="text-red-500">TranstechWorld</span>
         </motion.h1>
 
         <motion.p
