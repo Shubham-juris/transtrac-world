@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/navbar/logo1.jpg";
+import logo1 from "../assets/navbar/logo1.jpg";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -73,8 +73,8 @@ export default function Navbar() {
             {/* Logo */}
             <NavLink to="/" className="flex items-center space-x-2">
               <img
-                src={logo}
-                alt="Transtech World"
+                src={logo1}
+                alt="TranstechWorld"
                 className="h-15 w-auto object-contain"
               />
             </NavLink>
