@@ -3,10 +3,10 @@ import { Truck, Package, BarChart3, Globe, ShieldCheck, Headphones } from "lucid
 
 export default function ServiceGrid() {
   const services = [
-    { icon: <Truck className="w-10 h-10 text-red-500" />, title: "Fleet Transportation", desc: "Reliable and efficient fleet operations powered by Transtech World." },
+    { icon: <Truck className="w-10 h-10 text-red-500" />, title: "Fleet Transportation", desc: "Reliable and efficient fleet operations powered by TranstechWorld." },
     { icon: <Package className="w-10 h-10 text-red-500" />, title: "Warehousing", desc: "Smart warehouses with real-time inventory powered by our platform." },
     { icon: <BarChart3 className="w-10 h-10 text-red-500" />, title: "Logistics Analytics", desc: "Insights that improve performance and reduce costs." },
-    { icon: <Globe className="w-10 h-10 text-red-500" />, title: "Global Reach", desc: "Seamless cross-border transportation with Transtech World expertise." },
+    { icon: <Globe className="w-10 h-10 text-red-500" />, title: "Global Reach", desc: "Seamless cross-border transportation with TranstechWorld expertise." },
     { icon: <ShieldCheck className="w-10 h-10 text-red-500" />, title: "Secure Delivery", desc: "Trusted, insured, and compliant transport operations." },
     { icon: <Headphones className="w-10 h-10 text-red-500" />, title: "24/7 Support", desc: "Round-the-clock customer support for global clients." },
   ];
