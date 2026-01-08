@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Admin Assistant",
-    "company": "Transtech World",
+    "company": "TranstechWorld",
     "location": "St John, Newfoundland, Canada",
     "type": "Full-time",
     "salary": "$32.80 per hour",
@@ -25,7 +25,7 @@
   {
     "id": 5,
     "title": "Transportation Supervisor",
-    "company": "Transtech World",
+    "company": "TranstechWorld",
     "location": "St John, Newfoundland, Canada",
     "type": "Full-time",
     "salary": "$37.00 per hour",
@@ -35,7 +35,7 @@
   {
     "id": 6,
     "title": "Logistics Sales Supervisor",
-    "company": "Transtech World",
+    "company": "TranstechWorld",
     "location": "St John, Newfoundland, Canada",
     "type": "Full-time",
     "salary": "$37.00 per hour",
@@ -45,7 +45,7 @@
   {
     "id": 8,
     "title": "Logistics Coordinator",
-    "company": "Transtech World",
+    "company": "TranstechWorld",
     "location": "Toronto, Ontario, Canada",
     "type": "Full-time",
     "salary": "$36.00 per hour",
@@ -55,7 +55,7 @@
   {
     "id": 9,
     "title": "Truck Dispatcher",
-    "company": "Transtech World",
+    "company": "TranstechWorld",
     "location": "Calgary, Alberta, Canada",
     "type": "Full-time",
     "salary": "$35.00 per hour",
@@ -65,7 +65,7 @@
   {
     "id": 12,
     "title": "Logistics Sales Executive",
-    "company": "Transtech World",
+    "company": "TranstechWorld",
     "location": "Vancouver, British Columbia, Canada",
     "type": "Full-time",
     "salary": "$38.00 per hour",
