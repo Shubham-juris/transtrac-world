@@ -6,8 +6,8 @@ export default function FAQSection() {
   const [open, setOpen] = useState(null);
 
   const faqs = [
-    { q: "What services does Transtech World offer?", a: "We provide 3PL logistics, fleet management, warehousing, and supply chain optimization." },
-    { q: "Do you provide global services?", a: "Yes, Transtech World operates across domestic and international markets." },
+    { q: "What services does TranstechWorld offer?", a: "We provide 3PL logistics, fleet management, warehousing, and supply chain optimization." },
+    { q: "Do you provide global services?", a: "Yes, TranstechWorld operates across domestic and international markets." },
     { q: "How can I track my shipment?", a: "We provide a real-time tracking portal for all clients." },
   ];
 
