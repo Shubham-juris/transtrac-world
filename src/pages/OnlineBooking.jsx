@@ -31,7 +31,7 @@ export default function OnlineBooking() {
           Online Booking
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto">
-          Book logistics, fleet, or 3PL services seamlessly with Transtech World.
+          Book logistics, fleet, or 3PL services seamlessly with TranstechWorld.
         </p>
       </div>
 
