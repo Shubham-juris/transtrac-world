@@ -20,7 +20,7 @@ export default function CTA() {
         transition={{ duration: 1, delay: 0.3 }}
         className="text-gray-300 max-w-3xl mx-auto text-lg mb-8"
       >
-        Connect with Transtech World today and explore how our **tracking,
+        Connect with TranstechWorld today and explore how our **tracking,
         transportation, and 3PL expertise** can redefine your supply chain
         success.
       </motion.p>
