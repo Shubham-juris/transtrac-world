@@ -1,27 +1,55 @@
 [
   {
+    "id": 1,
+    "title": "Admin Assistant",
+    "company": "Transtech World",
+    "location": "St John, Newfoundland, Canada",
+    "type": "Full-time",
+    "salary": "$32.80 per hour",
+    "hours": "40 per week",
+    "description": "Provide administrative support, manage schedules, handle correspondence, and assist management with daily office operations.",
+    "qualifications": [
+      "High school diploma or equivalent",
+      "2+ years administrative experience",
+      "Strong organizational and communication skills",
+      "Proficiency in MS Office"
+    ],
+    "responsibilities": [
+      "Manage phone calls and emails",
+      "Schedule meetings and appointments",
+      "Prepare reports and documents",
+      "Maintain filing systems",
+      "Support management and staff with daily tasks"
+    ]
+  },
+  {
     "id": 5,
     "title": "Transportation Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
-    "benefits": "",
+    "type": "Full-time",
+    "salary": "$37.00 per hour",
+    "hours": "40 per week",
     "description": "Supervise sales teams, prepare reports, and coordinate daily transportation and logistics sales operations."
   },
   {
     "id": 6,
-    "title": "Logistics  Sales Supervisor",
+    "title": "Logistics Sales Supervisor",
     "company": "Transtech World",
     "location": "St John, Newfoundland, Canada",
-    "benefits": "",
+    "type": "Full-time",
+    "salary": "$37.00 per hour",
+    "hours": "40 per week",
     "description": "Assign duties, supervise logistics sales staff, and prepare sales and service performance reports."
   },
- 
   {
     "id": 8,
     "title": "Logistics Coordinator",
     "company": "Transtech World",
     "location": "Toronto, Ontario, Canada",
-    "benefits": "",
+    "type": "Full-time",
+    "salary": "$36.00 per hour",
+    "hours": "40 per week",
     "description": "Coordinate shipments, schedule freight, track deliveries, and maintain communication with drivers and clients."
   },
   {
@@ -29,16 +57,19 @@
     "title": "Truck Dispatcher",
     "company": "Transtech World",
     "location": "Calgary, Alberta, Canada",
-    "benefits": "",
+    "type": "Full-time",
+    "salary": "$35.00 per hour",
+    "hours": "40 per week",
     "description": "Assign loads to drivers, plan routes, monitor real-time tracking, and resolve delivery-related issues."
   },
- 
   {
     "id": 12,
     "title": "Logistics Sales Executive",
     "company": "Transtech World",
     "location": "Vancouver, British Columbia, Canada",
-    "benefits": "",
+    "type": "Full-time",
+    "salary": "$38.00 per hour",
+    "hours": "40 per week",
     "description": "Generate leads, pitch logistics services, build client portfolios, and support business development activities."
   }
 ]
