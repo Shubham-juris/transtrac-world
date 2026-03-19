@@ -63,7 +63,19 @@ export default function Footer() {
             >
               <Instagram className="w-6 h-6 text-red-500 hover:text-red-600 transition" />
             </a>
-           
+           <a
+            href="https://x.com/Transtech_world"
+            target="_blank"
+            rel="noopener noreferrer"
+             >
+            <svg
+              className="w-6 h-6 text-black hover:text-gray-700 transition"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M18.244 2H21l-6.56 7.5L22 22h-6.828l-5.35-6.982L3.5 22H1l7.028-8.034L2 2h6.828l4.86 6.342L18.244 2z"/>
+            </svg>
+          </a>
           </div>
         </div>
       </div>
