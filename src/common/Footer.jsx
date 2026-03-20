@@ -57,7 +57,7 @@ export default function Footer() {
               <Facebook className="w-6 h-6 text-blue-600 hover:text-blue-500 transition" />
             </a>
             <a
-              href="https://www.instagram.com/transtech.world"
+              href="https://www.instagram.com/transtech.world" 
               target="_blank"
               rel="noopener noreferrer"
             >
